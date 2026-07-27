@@ -6,7 +6,7 @@
 <title>Personalize — Presentes Criativos</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,500;1,600&family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500;600&display=swap');
- 
+
 :root{
   --plum:#5C2D82;
   --plum-deep:#3B1C54;
@@ -44,14 +44,14 @@ h1,h2,h3{
 }
 a{color:inherit; text-decoration:none;}
 .wrap{max-width:1160px; margin:0 auto; padding:0 30px;}
- 
+
 /* sparkle signature element */
 .spark{display:inline-block; width:14px; height:14px; position:relative; flex-shrink:0;}
 .spark::before{
   content:'✦'; color:var(--gold); font-size:15px; position:absolute; inset:0;
   display:flex; align-items:center; justify-content:center;
 }
- 
+
 /* ---------- header ---------- */
 header{
   position:sticky; top:0; z-index:50;
@@ -80,7 +80,7 @@ nav a.caps:hover{color:var(--blush);}
   flex-shrink:0;
 }
 .btn-whats:hover{background:var(--paper); color:var(--plum);}
- 
+
 /* hamburger (mobile only) */
 .menu-toggle{
   display:none;
@@ -98,7 +98,7 @@ nav a.caps:hover{color:var(--blush);}
 }
 .menu-toggle span::before{position:absolute; top:-6px; left:0;}
 .menu-toggle span::after{position:absolute; top:6px; left:0;}
- 
+
 /* ---------- hero ---------- */
 .hero{padding:90px 0 70px; position:relative; overflow:hidden;}
 .hero::before{
@@ -121,10 +121,10 @@ nav a.caps:hover{color:var(--blush);}
   white-space:nowrap;
 }
 .btn-outline:hover{background:var(--lilac);}
- 
+
 .trust-row{display:flex; align-items:center; gap:22px; flex-wrap:wrap; row-gap:10px;}
 .trust-row .item{display:flex; align-items:center; gap:8px; font-size:13px; color:#6b5d78;}
- 
+
 /* ---------- gift tag card (signature element) ---------- */
 .gift-tag{
   background:var(--paper);
@@ -151,7 +151,7 @@ nav a.caps:hover{color:var(--blush);}
 .gift-tag .sub{text-align:center; font-family:'Cormorant Garamond'; font-size:14px; color:#8a7d97; margin-bottom:18px; font-style:italic;}
 .tag-opts{display:flex; justify-content:center; gap:10px;}
 .opt{width:20px; height:20px; border-radius:50%; border:1px solid var(--plum-deep); flex-shrink:0;}
- 
+
 /* ---------- categories ---------- */
 .cats{border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--lilac);}
 .cats .wrap{display:flex; gap:0; overflow-x:auto; justify-content:center; -webkit-overflow-scrolling:touch;}
@@ -160,7 +160,7 @@ nav a.caps:hover{color:var(--blush);}
   text-transform:uppercase; letter-spacing:0.14em; color:var(--plum-deep); white-space:nowrap;
 }
 .cats a:hover{color:var(--blush);}
- 
+
 /* ---------- how it works ---------- */
 .steps{padding:90px 0;}
 .section-head{margin-bottom:54px; max-width:560px; text-align:center; margin-left:auto; margin-right:auto;}
@@ -171,7 +171,7 @@ nav a.caps:hover{color:var(--blush);}
 .step .stepnum{font-family:'Playfair Display'; font-style:italic; font-size:30px; color:var(--blush); margin-bottom:16px;}
 .step h3{font-size:21px; margin-bottom:10px;}
 .step p{font-size:14.5px; color:#6b5d78; font-weight:300;}
- 
+
 /* ---------- catalog ---------- */
 .catalog{padding:90px 0; background:var(--lilac);}
 .catalog-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:26px;}
@@ -190,7 +190,7 @@ nav a.caps:hover{color:var(--blush);}
   font-family:'Cormorant Garamond'; font-weight:600; font-size:12.5px; text-transform:uppercase; letter-spacing:0.12em;
 }
 .btn-mini:hover{background:var(--plum-deep); color:var(--paper);}
- 
+
 /* ---------- features ---------- */
 .features{padding:70px 0;}
 .features-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:30px;}
@@ -198,7 +198,7 @@ nav a.caps:hover{color:var(--blush);}
 .feature .spark{margin-bottom:10px; display:block;}
 .feature h4{font-family:'Cormorant Garamond'; font-size:14px; text-transform:uppercase; letter-spacing:0.14em; margin-bottom:8px; color:var(--plum); font-weight:600;}
 .feature p{font-size:13.5px; color:#6b5d78; font-weight:300;}
- 
+
 /* ---------- footer ---------- */
 footer{padding:60px 0 40px; background:var(--plum-deep); color:var(--paper);}
 .footer-grid{display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:26px;}
@@ -212,7 +212,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
   font-family:'Cormorant Garamond'; font-size:12px; letter-spacing:0.1em; color:#a993ba;
   display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; text-transform:uppercase;
 }
- 
+
 /* ---------- floating whatsapp ---------- */
 .floating-wa{
   position:fixed; bottom:26px; right:26px; z-index:60;
@@ -222,9 +222,9 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
   box-shadow:0 10px 26px rgba(59,28,84,0.4);
   border:1px solid var(--plum-deep);
 }
- 
+
 /* ===================== RESPONSIVE ===================== */
- 
+
 /* Tablet */
 @media (max-width:860px){
   .wrap{padding:0 24px;}
@@ -235,33 +235,35 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     border-bottom:1px solid var(--line);
     flex-direction:column; align-items:flex-start; gap:0;
     box-shadow:0 16px 30px -20px rgba(92,45,130,0.3);
+    padding:8px 24px;
   }
   nav.open{display:flex;}
-  nav a.caps{width:100%; padding:16px 24px; border-bottom:1px solid var(--line);}
+  nav a.caps{width:100%; padding:16px 0; border-bottom:1px solid var(--line);}
   header .btn-whats{padding:10px 18px; font-size:12.5px;}
   .menu-toggle{display:flex;}
- 
+
   .hero{padding:56px 0 50px;}
   .hero-grid{grid-template-columns:1fr; gap:44px;}
   .hero p.lead{max-width:100%;}
   .gift-tag{margin-top:20px; max-width:400px;}
- 
+
   .steps-grid, .catalog-grid{grid-template-columns:1fr; gap:28px;}
   .steps{padding:64px 0;}
   .catalog{padding:64px 0;}
   .features-grid{grid-template-columns:repeat(2,1fr); row-gap:34px;}
- 
+
   .footer-grid{align-items:flex-start;}
   footer h3{font-size:23px;}
 }
- 
+
 /* Phone */
 @media (max-width:520px){
   .wrap{padding:0 18px;}
+  nav{padding:8px 18px;}
   .logo{font-size:22px;}
   .header-inner{padding:16px 0;}
   header .btn-whats{padding:9px 14px; font-size:11.5px; letter-spacing:0.08em;}
- 
+
   .eyebrow{font-size:12px; letter-spacing:0.2em;}
   .hero h1{font-size:clamp(28px,8vw,38px);}
   .hero p.lead{font-size:16px;}
@@ -269,29 +271,29 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
   .btn-whats, .btn-outline{padding:11px 20px; font-size:13px;}
   .trust-row{gap:14px;}
   .trust-row .item{font-size:12px;}
- 
+
   .gift-tag{padding:26px 20px 22px;}
   .gift-tag h3{font-size:19px;}
- 
+
   .cats a{padding:14px 18px; font-size:12.5px;}
- 
+
   .section-head{margin-bottom:38px;}
   .step h3{font-size:19px;}
- 
+
   .prod-card{padding:22px 16px;}
   .features-grid{grid-template-columns:1fr; gap:26px;}
- 
+
   footer{padding:44px 0 30px;}
   .footer-grid{gap:20px;}
   .footer-links{gap:20px;}
   .foot-bottom{flex-direction:column; gap:6px;}
- 
+
   .floating-wa{width:50px; height:50px; bottom:18px; right:18px;}
 }
 </style>
 </head>
 <body>
- 
+
 <header>
   <div class="wrap header-inner">
     <div class="logo">Personalize<span class="spark" style="margin-left:2px;"></span></div>
@@ -305,7 +307,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     </button>
   </div>
 </header>
- 
+
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
@@ -313,7 +315,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
       <h1>Um presente com <span class="script">a sua história</span>.</h1>
       <p class="lead">Camisetas, canecas e lembranças personalizadas com a sua arte, sua frase ou o nome de quem você ama. Você envia a ideia pelo WhatsApp, a gente transforma em presente.</p>
       <div class="hero-ctas">
-        <a class="btn-whats" href="https://wa.me/5511999999999" target="_blank">Fazer meu pedido</a>
+        <a class="btn-whats" href="+5511999999999">Fazer meu pedido</a>
         <a class="btn-outline" href="#catalogo">Ver catálogo</a>
       </div>
       <div class="trust-row">
@@ -321,7 +323,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
         <div class="item"><span class="spark"></span> Prova antes de produzir</div>
       </div>
     </div>
- 
+
     <div class="gift-tag">
       <div class="tag-top">
         <span class="caps">Cartão do presente</span>
@@ -346,7 +348,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     </div>
   </div>
 </section>
- 
+
 <nav class="cats" id="produtos">
   <div class="wrap">
     <a href="#">Camisetas</a>
@@ -356,7 +358,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     <a href="#">Personalização de marca</a>
   </div>
 </nav>
- 
+
 <section class="steps" id="como-funciona">
   <div class="wrap">
     <div class="section-head">
@@ -382,7 +384,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     </div>
   </div>
 </section>
- 
+
 <section class="catalog" id="catalogo">
   <div class="wrap">
     <div class="section-head">
@@ -390,7 +392,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
       <h2>Alguns dos nossos presentes</h2>
     </div>
     <div class="catalog-grid">
- 
+
       <div class="prod-card">
         <div class="prod-icon">
           <svg width="56" height="56" viewBox="0 0 90 90" fill="none">
@@ -404,9 +406,9 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
           <span class="opt" style="background:var(--plum)"></span>
           <span class="opt" style="background:var(--blush)"></span>
         </div>
-        <a class="btn-mini" href="#">Pedir no WhatsApp</a>
+        <a class="btn-mini" href="+5511999999999">Pedir no WhatsApp</a>
       </div>
- 
+
       <div class="prod-card">
         <div class="prod-icon">
           <svg width="56" height="56" viewBox="0 0 90 90" fill="none">
@@ -420,9 +422,9 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
           <span class="opt" style="background:var(--gold)"></span>
           <span class="opt" style="background:var(--plum)"></span>
         </div>
-        <a class="btn-mini" href="#">Pedir no WhatsApp</a>
+        <a class="btn-mini" href="+5511999999999">Pedir no WhatsApp</a>
       </div>
- 
+
       <div class="prod-card">
         <div class="prod-icon">
           <svg width="56" height="56" viewBox="0 0 90 90" fill="none">
@@ -438,13 +440,13 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
           <span class="opt" style="background:var(--blush)"></span>
           <span class="opt" style="background:var(--gold)"></span>
         </div>
-        <a class="btn-mini" href="#">Pedir no WhatsApp</a>
+        <a class="btn-mini" href="+5511999999999">Pedir no WhatsApp</a>
       </div>
- 
+
     </div>
   </div>
 </section>
- 
+
 <section class="features">
   <div class="wrap features-grid">
     <div class="feature"><span class="spark"></span>
@@ -465,7 +467,7 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     </div>
   </div>
 </section>
- 
+
 <footer>
   <div class="wrap footer-grid">
     <div>
@@ -473,8 +475,8 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
       <p>Manda uma mensagem no WhatsApp com a ideia que você tem em mente.</p>
     </div>
     <div class="footer-links">
-      <a href="https://www.instagram.com/personalize_01?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
-      <a href="https://wa.me/5511999999999" target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/personalize_01?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+      <a href="+5511999999999">WhatsApp</a>
       <a href="#catalogo">Catálogo</a>
     </div>
   </div>
@@ -483,14 +485,14 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     <span>Feito à mão, sob encomenda</span>
   </div>
 </footer>
- 
-<a class="floating-wa" href="https://wa.me/5511999999999" target="_blank" aria-label="Pedir no WhatsApp">
+
+<a class="floating-wa" href="+5511999999999" aria-label="Pedir no WhatsApp">
   <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
     <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" fill="#FFFEFC"/>
     <path d="M8.5 8.5c.3-.8.6-.8.9-.8h.5c.2 0 .4 0 .6.5.2.5.7 1.7.8 1.8.1.2.1.4 0 .6-.1.2-.2.3-.4.5-.2.2-.4.4-.2.7.2.4 1 1.5 2.1 2.4 1.4 1.2 1.9 1.3 2.2 1.2.3-.1.9-.7 1.1-1 .2-.3.4-.2.7-.1.3.1 1.7.8 2 1 .3.1.5.2.5.4 0 .2 0 1-.4 1.5-.4.5-1.8 1-2.5 1-.6 0-2.2-.1-4.3-1.9-2.6-2.2-3.4-4-3.5-4.6-.1-.6-.5-1.5.1-2.2z" fill="#5C2D82"/>
   </svg>
 </a>
- 
+
 <script>
   const menuToggle = document.getElementById('menuToggle');
   const mainNav = document.getElementById('mainNav');
@@ -505,8 +507,6 @@ footer p{font-size:14px; color:#cbb9da; max-width:340px; margin-top:12px; font-w
     });
   });
 </script>
- 
+
 </body>
 </html>
- 
-
