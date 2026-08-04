@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: trocar pela URL final assim que o domínio estiver definido
+# Sitemap: https://SEU-DOMINIO.com.br/sitemap.xml
